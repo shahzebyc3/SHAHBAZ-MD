@@ -1,10 +1,10 @@
 FROM node:lts-buster
 
 # Clone bot from GitHub
-RUN git clone https://github.com/Arslan-MD/Arslan_MD.git /root/arslan-bot
+RUN git clone https://github.com/shahzebyc3/SHAHBAZ-MD.git /root/SHAHBAZ-bot
 
 # Set working directory
-WORKDIR /root/arslan-bot
+WORKDIR /root/SHAHBAZ-bot
 
 # Install dependencies
 RUN npm install && npm install -g pm2 || yarn install --network-concurrency 1
