@@ -1,8 +1,8 @@
 {
-  "name": "MAFIA-MD",
-  "description": "Javascript WhatsApp bot made by ArslanMD Official",
-  "logo": "https://files.catbox.moe/m18b24.jpg",
-  "keywords": ["MAFIA-MD"],
+  "name": "SHAHBAZ-MD",
+  "description": "Javascript WhatsApp bot made by SHAHBAZ-MD Official",
+  "logo": "https://files.catbox.moe/l7d81a.png",
+  "keywords": ["SHAHBAZ-MD"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "MAFIA-MD"
+      "value": "SHAHBAZ-MD"
     }, 
       
     "PREFIX": {
@@ -78,27 +78,27 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY MAFIA-MD 🖤*"
+      "value": "*SEEN YOUR STATUS BY SHAHBAZ-MD 🖤*"
    
      }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "MAFIA-MD Official"
+      "value": "SHAHBAZ-MD Official"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "923428313986"
+      "value": "923191285720"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "MAFIA-MD"
+      "value": "SHAHBAZ-MD"
 
       }, 
 
@@ -131,13 +131,13 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/m18b24.jpg"
+      "value": "https://files.catbox.moe/l7d81a.png"
     },
     
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*CREATER MAFIA*"
+      "value": "*CREATER SHAHBAZ*"
     },
 
       "DELETE_LINKS": {
