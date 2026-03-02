@@ -22,13 +22,13 @@ cmd({
 ⟬★⟭────────────────
 ⟬★⟭ 𝗕𝗢𝗧 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗜𝗢𝗡
 ⟬★⟭────────────────
-│ 👑  Owner » *ARSLAN*
+│ 👑  Owner » *SHAHBAZ-MD*
 │ 🤖  Baileys » *Multi Device*
 │ 💻  Type » *NodeJs*
 │ 🚀  Platform » *Heroku*
 │ ⚙️  Mode » *[public]*
 │ 🔣  Prefix » *[.]*
-│ 🏷️  creater » *ArslanMD Official*
+│ 🏷️  creater » *SHAHBAZ-MD Official*
 │ 📚  Commands » *332*
 ⟬★⟭─────────────────
 ╔═══◇◆◇════════════╗
@@ -286,7 +286,7 @@ cmd({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363348739987203@newsletter',
+                newsletterJid: '> 120363424231270188@newsletter',
                 newsletterName: config.OWNER_NAME,
                 serverMessageId: 143
             }
@@ -298,7 +298,7 @@ cmd({
                 return await conn.sendMessage(
                     from,
                     {
-                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/lcpy9f.jpg' },
+                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/l7d81a.png' },
                         caption: menuCaption,
                         contextInfo: contextInfo
                     },
@@ -643,7 +643,7 @@ cmd({
                                 await conn.sendMessage(
                                     senderID,
                                     {
-                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/lcpy9f.jpg' },
+                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/l7d81a.png' },
                                         caption: selectedMenu.content,
                                         contextInfo: contextInfo
                                     },
