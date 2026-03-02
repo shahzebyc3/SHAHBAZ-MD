@@ -69,7 +69,7 @@ Use *.update* to update.`;
       `📌 *Bot Name:* ArslanMD-MD\n🔖 *Current Version:* ${localVersion}\n📢 *Latest Version:* ${latestVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
       `💾 *System Info:*\n⏳ *Uptime:* ${uptime}\n📟 *RAM Usage:* ${ramUsage}MB / ${totalRam}MB\n⚙️ *Host Name:* ${hostName}\n📅 *Last Update:* ${lastUpdate}\n\n` +
       `📝 *Changelog:*\n${latestChangelog}\n\n` +
-      `⭐ *GitHub Repo:* ${githubRepo}\n👤 *Owner:* [𝓐𝓻𝓼𝓵𝓪𝓷_𝓜𝓓](https://github.com/Arslan-MD)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
+      `⭐ *GitHub Repo:* ${githubRepo}\n👤 *Owner:* [SHAHBAZ-MD](https://github.com/shahzebyc3)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
 
     // Send the status message with an image
     await conn.sendMessage(from, {
@@ -80,8 +80,8 @@ Use *.update* to update.`;
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363348739987203@newsletter',
-          newsletterName: '𝓐𝓻𝓼𝓵𝓪𝓷_𝓜𝓓',
+          newsletterJid: '120363424231270188@newsletter',
+          newsletterName: 'SHAHBAZ-MD',
           serverMessageId: 143
         }
       }
