@@ -1,18 +1,18 @@
 const config = require('../config');
 const { cmd, commands } = require('../command');
 
-// Array of different fancy text styles for ARSLAN-MD
+// Array of different fancy text styles for SHAHBAZ-MD-MD
 const botNameStyles = [
-    "⒜⒭⒮⒧⒜⒩_⒨⒟",
-    "🅰🆁🆂🅻🅰🅽_🅼🅳",
-    "🅐🅡🅢🅛🅐🅝_🅜🅓",
-    "𝓐𝓻𝓼𝓵𝓪𝓷_𝓜𝓓",
-    "𝕬𝖗𝖘𝖑𝖆𝖓_𝕸𝕯",
-    "Ａｒｓｌａｎ＿ＭＤ",
-    "Áŕśĺáń_ḾD",
-    "αяѕℓαη_м∂",
-    "ȺɍsłȺn_MĐ",
-    "ₐᵣₛₗₐₙ_ₘD"
+    "SHAHBAZ_⒨⒟",
+    "SHAHBAZ_🅼🅳",
+    "_🅜🅓",
+    "SHAHBAZ_𝓜𝓓",
+    "SHAHBAZ_𝕸𝕯",
+    "SHAHBAZ＿ＭＤ",
+    "SHAHBAZ_ḾD",
+    "SHAHBAZ_м∂",
+    "SHAHBAZ_MĐ",
+    "SHAHBAZ_ₘD"
 ];
 
 // Track current style index
@@ -63,8 +63,8 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363348739987203@newsletter',
-                    newsletterName: "𝓐𝓻𝓼𝓵𝓪𝓷_𝓜𝓓",
+                    newsletterJid: '120363424231270188@newsletter',
+                    newsletterName: "SHAHBAZ-MD",
                     serverMessageId: 143
                 }
             }
