@@ -1,6 +1,6 @@
-🤖 ***SHAHBAZ-MD*** - MULTIPLE POWERFUL WHATSAPP BOT
+🤖 ***SHAHBAZ-MDV 2*** - MULTIPLE POWERFUL WHATSAPP BOT
 
-> ⚔️ Developed by SHAHBAZMD Official | 500+ Features | Super Aggressive Bot
+> ⚔️ Developed by SHAHBAZMD V2 VERSION Official | 500+ Features | Super Aggressive Bot
 </div>
 
 <p align="center">
@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://files.catbox.moe/l7d81a.png" />
+  <img src="https://files.catbox.moe/ob2dvy.jpg" />
 </p>
 
 <!-- 📊 STATS & HERO ANIMATION (Updated Colors) -->
