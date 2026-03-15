@@ -9,7 +9,7 @@ global.File = BufferFile;
     const _h = Buffer.from(_k).toString('base64');
     const _a = Buffer.from((_p.author||''), 'utf8').toString('base64');
     if (_a !== _h) {
-        process.stderr.write('\n\x1b[31m⛔  Cheap editing of SHAHBAZ MD Bot detected. Build failed.\x1b[0m\n\n');
+        process.stderr.write('\n\x1b[31m⛔  Cheap editing of SHAHBAZ-MD Bot detected. Build failed.\x1b[0m\n\n');
         process.exit(1);
     }
     process.stdout.write('\x1b[32m✅ Passed the Silva security check.\x1b[0m\n');
