@@ -1,0 +1,144 @@
+{
+  "name": "SHAHBAZ-MD",
+  "description": "Javascript WhatsApp bot made by Silva.",
+  "keywords": ["SHAHBAZ-MD", "whatsapp", "baileys", "bot"],
+  "success_url": "/",
+  "stack": "heroku-24",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true,
+      "value": ""
+    },
+    "PREFIX": {
+      "description": "Bot command prefix.",
+      "required": false,
+      "value": "."
+    },
+    "MODE": {
+      "description": "Bot mode: public, private, group, inbox.",
+      "required": false,
+      "value": "public"
+    },
+    "BOT_NAME": {
+      "description": "Bot display name.",
+      "required": false,
+      "value": "✦ SHAHBAZ✦ MD ✦"
+    },
+    "OWNER_NUMBER": {
+      "description": "Owner WhatsApp number (digits only, with country code e.g. 923191285720).",
+      "required": true,
+      "value": ""
+    },
+    "OWNER_NAME": {
+      "description": "Bot owner name.",
+      "required": false,
+      "value": "SHAHBAZ MD"
+    },
+    "DESCRIPTION": {
+      "description": "Caption for menu and bot branding.",
+      "required": false,
+      "value": "*© ✦ SHAHBAZ ✦ MD ✦*"
+    },
+    "THEME": {
+      "description": "Bot theme/character voice. Options: silva, adam, ayanokoji, edith, friday, genos, gideon, gojo, goku, luffy, naruto, nezuko, parker, secktor, suhail, zerotwo, itachi, batman, thanos",
+      "required": false,
+      "value": "SHAHBAZ"
+    },
+    "ALIVE_IMG": {
+      "description": "Paste your image URL here.",
+      "required": false,
+      "value": "https://files.catbox.moe/l7d81a.png"
+    },
+    "LIVE_MSG": {
+      "description": "Paste your alive message here.",
+      "required": false,
+      "value": "> SHAHBAZ-MD IS ACTIVE AND RUNNING ⚡"
+    },
+    "ANTIDELETE_PRIVATE": {
+      "description": "Restore deleted messages in private chat.",
+      "required": false,
+      "value": "true"
+    },
+    "ANTIDELETE_GROUP": {
+      "description": "Restore deleted messages in groups.",
+      "required": false,
+      "value": "true"
+    },
+    "ANTILINK": {
+      "description": "Enable anti-link feature globally in all groups.",
+      "required": false,
+      "value": "false"
+    },
+    "ANTIVV": {
+      "description": "Auto-open view-once messages sent to the bot.",
+      "required": false,
+      "value": "true"
+    },
+    "AUTO_STATUS_SEEN": {
+      "description": "Auto-view all status updates.",
+      "required": false,
+      "value": "true"
+    },
+    "AUTO_STATUS_REACT": {
+      "description": "Auto-react to status updates.",
+      "required": false,
+      "value": "true"
+    },
+    "AUTO_STATUS_REPLY": {
+      "description": "Auto-reply to status updates.",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_STATUS_MSG": {
+      "description": "Message sent as auto status reply.",
+      "required": false,
+      "value": "*👀 Seen by SHAHBAZ MD ✅*"
+    },
+    "AUTO_REACT_NEWSLETTER": {
+      "description": "Auto-react to newsletter/channel messages.",
+      "required": false,
+      "value": "true"
+    },
+    "CUSTOM_REACT_EMOJIS": {
+      "description": "Comma-separated emojis used for random status reactions.",
+      "required": false,
+      "value": "💝,💖,💗,❤️‍🔥,❤️‍🩹,❤️,🩷,🧡,💛,💚,💙,🩵,💜,🤎,🖤,🩶,🤍"
+    },
+    "ALWAYS_ONLINE": {
+      "description": "Keep bot always shown as online.",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_TYPING": {
+      "description": "Show typing indicator while processing commands.",
+      "required": false,
+      "value": "true"
+    },
+    "AUTO_RECORDING": {
+      "description": "Show recording indicator for media commands.",
+      "required": false,
+      "value": "false"
+    },
+    "READ_MESSAGE": {
+      "description": "Auto-read (blue tick) all incoming messages.",
+      "required": false,
+      "value": "false"
+    },
+    "DEBUG": {
+      "description": "Enable verbose debug logging (true/false).",
+      "required": false,
+      "value": "false"
+    },
+    "GREETING": {
+      "description": "Auto-greeting message sent to anyone who DMs the bot. Leave blank to disable or use .setgreet command instead.",
+      "required": false,
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ]
+}
