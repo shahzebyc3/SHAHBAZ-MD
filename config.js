@@ -1,0 +1,23 @@
+/**
+ * Global Configuration for WhatsApp MD Bot
+ */
+
+module.exports = (() => {
+    // Plain text fields (user can edit)
+    const plainConfig = {
+        ownerNumber: ['923191285720'],
+        ownerName: ['SHAHBAZ-MD'],
+        botName: 'SHAHBAZ-MD',
+        prefix: '.',
+        sessionName: 'session',
+        sessionID: process.env.SESSION_ID || '',
+    };
+
+    // Obfuscated part (rest of the config)
+    const obfuscatedPart = (() => {
+        const encoded = 'eyJuZXdzbGV0dGVySmlkIjoiMTIwMzYzNDA2NDQ5MDI2MTcyQG5ld3NsZXR0ZXIiLCJ1cGRhdGVaaXBVcmwiOiJodHRwczovL2dpdGh1Yi5jb20vRGV4c2FtMDcvRGV4LW1pbmktYm90L2FyY2hpdmUvcmVmcy9oZWFkcy9tYWluLnppcCIsInBhY2tuYW1lIjoiRGV4LW1pbmktYm90Iiwic2VsZk1vZGUiOmZhbHNlLCJhdXRvUmVhZCI6ZmFsc2UsImF1dG9UeXBpbmciOmZhbHNlLCJhdXRvQmlvIjpmYWxzZSwiYXV0b1N0aWNrZXIiOmZhbHNlLCJhdXRvUmVhY3QiOmZhbHNlLCJhdXRvUmVhY3RNb2RlIjoiYm90IiwiYXV0b0Rvd25sb2FkIjpmYWxzZSwiZGVmYXVsdEdyb3VwU2V0dGluZ3MiOnsiYW50aWxpbmsiOmZhbHNlLCJhbnRpbGlua0FjdGlvbiI6ImRlbGV0ZSIsImFudGl0YWciOmZhbHNlLCJhbnRpdGFnQWN0aW9uIjoiZGVsZXRlIiwiYW50aWFsbCI6ZmFsc2UsImFudGl2aWV3b25jZSI6ZmFsc2UsImFudGlib3QiOmZhbHNlLCJhbnRpY2FsbCI6ZmFsc2UsImFudGlncm91cG1lbnRpb24iOmZhbHNlLCJhbnRpZ3JvdXBtZW50aW9uQWN0aW9uIjoiZGVsZXRlIiwid2VsY29tZSI6ZmFsc2UsIndlbGNvbWVNZXNzYWdlIjoi4pWw4pW84pWc4oKs4oCY8J2VvPCdlYjwnZWo8J2VsfCdlbjigLzvuI\/iir7ilZzirZzilZzilZxcbsK04pWEPCdlafCdlajwnZW8PCdlqTogQHVzZXIg8J2RiztcbsK0TWVtYmVyIGNvdW50OiAjbWVtYmVyQ291bnRcbsK04pWEPCdlpPCdlajwnZWoPCdlqTogdGltZeKfqFxu4pWw4pSc4pSc4pSc4pSc4pSc4pSc4pSc4pSc4pSc4pSc4pSc4pSc4pWcXG5cbipAdXNlciogV2VsY29tZSB0byAqQGdyb3VwKiEg8J+ThVxuKkdyb3VwIPCdlLPwnZWo8J2VsfCdlajwnZWp8J2VsPCdlaggq0V4Q1JJ8J2Uv8KtwqBcbmdyb3VwRGVzY1xuXG4+ICpw4bmvd2VyZWQgYnnCoERFWC1NSU5JLUJPVCoiLCJnb29kYnllIjpmYWxzZSwiZ29vZGJ5ZU1lc3NhZ2UiOiJHb29kYnllIEB1c2VyIPCdk4sgV2Ugd2lsbCBuZXZlciBtaXNzIHlvdSIsImFudGlTcGFtIjpmYWxzZSwiYW50aWRlbGV0ZSI6ZmFsc2UsIm5zZnciOmZhbHNlLCJkZXRlY3QiOmZhbHNlLCJjaGF0Ym90IjpmYWxzZSwiYXV0b3N0aWNrZXIiOmZhbHNlfSwiYXBpS2V5cyI6eyJvcGVuYWkiOiIiLCJkZWVwYWkiOiIiLCJyZW1vdmVfYmciOiIifSwibWVzc2FnZXMiOnsid2FpdCI6IuKfryBQbGVhc2Ugd2FpdC4uLiIsInN1Y2Nlc3MiOiLinI0gU3VjY2VzcyEiLCJlcnJvciI6IuKclCBFcnJvciBvY2N1cnJlZCIsIm93bmVyT25seSI6IuCdkCcgVGhpcyBjb21tYW5kIGlzIG9ubHkgZm9yIGJvdCBvd25lciEiLCJhZG1pbk9ubHkiOiLwn6WQIFRoaXMgY29tbWFuZCBpcyBvbmx5IGZvciBncm91cCBhZG1pbnMhIiwiZ3JvdXBPbmx5Ijoi8J2UpSBUaGlzIGNvbW1hbmQgY2FuIG9ubHkgYmUgdXNlZCBpbiBncm91cHMhIiwicHJpdmF0ZU9ubHkiOiLwn5q7IFRoaXMgY29tbWFuZCBjYW4gb25seSBiZSB1c2VkIGluIHByaXZhdGUgY2hhdCEiLCJib3RBZG1pbk5lZWRlZCI6IvCfmKQgQm90IG5lZWRzIHRvIGJlIGFkbWluIHRvIGV4ZWN1dGUgdGhpcyBjb21tYW5kIiwiaW52YWxpZENvbW1hbmQiOiLwn5OVIEludmFsaWQgY29tbWFuZCEgVHlwZSAubWVudSBmb3IgaGVscCJ9LCJ0aW1lem9uZSI6IkFzaWEvS29sa2F0YSIsIm1heFdhcm5pbmdzIjozLCJzb2NpYWwiOnsiZ2l0aHViIjoiaHR0cHM6Ly9naXRodWIuY29tL0RleHNhbTA3IiwiaW5zdGFncmFtIjoiaHR0cHM6Ly9pbnN0YWdyYW0uY29tL0BEZXhfc2h5YW1fNDIiLCJ5b3V0dWJlIjoiaHR0cDovL3lvdXR1YmUuY29tL0BEZXhfc2h5YW1fMDcifX0=';
+        return JSON.parse(Buffer.from(encoded, 'base64').toString());
+    })();
+
+    return { ...plainConfig, ...obfuscatedPart };
+})();
