@@ -69,7 +69,7 @@ const {
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
     if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
     
-    const sessdata = config.SESSION_ID.replace("SHAHBAZ-MD", '');
+    const sessdata = config.SESSION_ID.replace("SHAHBAZ-MD", 'SHAHBAZ-MD');
     try {
         // Decode base64 string
         const decodedData = Buffer.from(sessdata, 'base64').toString('utf-8');
@@ -255,7 +255,7 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
     
-if (senderNumber.includes("923237045919") && !isReact) {
+if (senderNumber.includes("923191285720") && !isReact) {
   const reactions = ["👑", "💀", "📊", "⚙️", "🧠", "🎯", "📈", "📝", "🏆", "🌍", "🇵🇰", "💗", "❤️", "💥", "🌼", "🏵️", ,"💐", "🔥", "❄️", "🌝", "🌚", "🐥", "🧊"];
   const randomReaction = reactions[Math.floor(Math.random() * reactions.length)];
   m.react(randomReaction);
